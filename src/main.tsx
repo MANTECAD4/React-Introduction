@@ -2,15 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import './styles.css';
-// import { CounterApp } from './CounterApp';
-import { FirstApp } from './FirstApp';
+import { CounterApp } from './CounterApp';
 
 const root = document.querySelector('#root');
 
 if ( root ) {
     ReactDOM.createRoot( root ).render(
         <React.StrictMode>
-           <FirstApp title='First App' subTitle='Basic component' name='Ñañel'/>
+            <CounterApp value={10}/>
         </React.StrictMode>
     );
 } else {

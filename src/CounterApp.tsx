@@ -24,7 +24,7 @@ export const CounterApp = ( { value }:Props ) => {
     <>
         <h1>CounterApp</h1>
         <h2> { counter } </h2>
-        <button onClick = { handleAddButton }> +1 </button>
+        <button aria-label="sumar 1" onClick = { handleAddButton }> + </button>
         <button onClick = { handleSubButton }> -1 </button>
         <button onClick = { handleRstButton }> Reset </button>
     </>
