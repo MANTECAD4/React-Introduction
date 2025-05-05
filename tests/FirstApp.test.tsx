@@ -6,10 +6,7 @@ describe(`Tests on "FirstApp" component`, () => {
     
     test('FirstApp component should match a snapshot', () => { 
         
-        render( <FirstApp 
-            title="First App component"
-            subTitle="Basic Component"
-            name="Daniel"/> )
+        render( <FirstApp title="First App component" subTitle="Basic Component" name="Daniel"/> )
 
      });
 
